@@ -250,6 +250,11 @@
                   "type": "string",
                   "description": "The command to execute."
                 },
+                "steps": {
+                  "type": "array",
+                  "items": { "type": "string" },
+                  "description": "Enables the combination of multiple scripts within a single script definition for complex workflows"
+                }
                 "exec": {
                   "anyOf": [
                     {
